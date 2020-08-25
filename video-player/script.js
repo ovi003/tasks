@@ -65,9 +65,9 @@ btnForward.addEventListener('click', function () {
 
 // Update play/pause button text accordion to the events
 player.on('play', function () {
-  btnPlay.innerHTML = 'Pause';
+  btnPlay.textContent = 'Pause';
 });
 
 player.on('pause', function () {
-  btnPlay.innerHTML = 'Play';
+  btnPlay.textContent = 'Play';
 });
